@@ -23,6 +23,7 @@
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
           <div class='header-info'>
+            <img style='float:left; padding:0em 1.0em 0em 0em' width = '98' src='{{ .Site.Params.info.logo }}'>
             {{- if eq .Kind "home" -}}
               <h1 class='site-title title'>{{ .Site.Title }}</h1>
             {{- else -}}
